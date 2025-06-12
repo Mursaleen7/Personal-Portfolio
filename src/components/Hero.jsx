@@ -65,7 +65,7 @@ const Hero = () => {
                 <span style={{ color: '#a374ff' }}>CYBER</span>
                 {/* Annotation: Based in Pakistan - Right of CYBER, baseline aligned */}
                 <span className="absolute left-full ml-4 top-0 text-sm md:text-base font-headline font-normal whitespace-nowrap hidden lg:block" style={{ color: '#fffce4' }}>
-                  // Final-year Computer Science (Cybersecurity) student
+                  // Final-year CS student
                 </span>
               </div>
 
