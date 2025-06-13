@@ -1,6 +1,4 @@
-# thegr8binil Portfolio
-
-A modern, animated portfolio website for thegr8binil - Digital Experience Designer & Developer based in Kerala, India.
+# Mursaleen Portfolio
 
 ## 🚀 Features
 
