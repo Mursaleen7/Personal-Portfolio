@@ -76,6 +76,23 @@ const Resume = () => {
               <div className="p-6 rounded-2xl border border-white/10 bg-black/20 backdrop-blur-sm">
                 <div className="flex flex-wrap justify-between items-start mb-2">
                   <h4 className="text-xl font-headline font-medium" style={{ color: '#F3F3F3' }}>
+                    Security Operations (Internship)
+                  </h4>
+                  <span className="text-sm font-ui px-3 py-1 rounded-full" style={{ backgroundColor: '#a374ff30', color: '#a374ff' }}>
+                    May 2025 - Present
+                  </span>
+                </div>
+                <h5 className="text-lg font-ui mb-3" style={{ color: '#16f0d1' }}>iMatter Global Solutions</h5>
+                <ul className="list-disc pl-5 space-y-2 font-ui" style={{ color: '#fffce4' }}>
+                  <li>Helped in connecting AWS CloudTrail to Splunk, shadowed a senior analyst to fine tune login anomaly correlation rules, and wrote a Python script that emails the SOC whenever IAM lockouts spike.</li>
+                  <li>Scheduled and analyzed weekly Nessus scans, drove high-severity CVE tickets from open to closure, and handled daily phishing triage (header checks, sandbox tests, sender blocks).</li>
+                  <li>Added an OWASP ZAP baseline scan to the CI pipeline for an internal test portal, filtered false positives with a senior analyst, and filed confirmed issues for developers.</li>
+                </ul>
+              </div>
+
+              <div className="p-6 rounded-2xl border border-white/10 bg-black/20 backdrop-blur-sm">
+                <div className="flex flex-wrap justify-between items-start mb-2">
+                  <h4 className="text-xl font-headline font-medium" style={{ color: '#F3F3F3' }}>
                     App Developer (Co-op)
                   </h4>
                   <span className="text-sm font-ui px-3 py-1 rounded-full" style={{ backgroundColor: '#a374ff30', color: '#a374ff' }}>
@@ -93,10 +110,27 @@ const Resume = () => {
               <div className="p-6 rounded-2xl border border-white/10 bg-black/20 backdrop-blur-sm">
                 <div className="flex flex-wrap justify-between items-start mb-2">
                   <h4 className="text-xl font-headline font-medium" style={{ color: '#F3F3F3' }}>
+                    IT Security Support (Internship)
+                  </h4>
+                  <span className="text-sm font-ui px-3 py-1 rounded-full" style={{ backgroundColor: '#a374ff30', color: '#a374ff' }}>
+                    May 2024 - Sep 2024
+                  </span>
+                </div>
+                <h5 className="text-lg font-ui mb-3" style={{ color: '#16f0d1' }}>iMatter Global Solutions</h5>
+                <ul className="list-disc pl-5 space-y-2 font-ui" style={{ color: '#fffce4' }}>
+                  <li>Captured lab traffic with Wireshark, pinpointed a misconfigured DNS server, recommended cache resets, and confirmed faster load times after the fix.</li>
+                  <li>Ran weekly Nmap sweeps of lab hosts, documented exposed ports, helped shut down two legacy services, and re-scanned to verify closure.</li>
+                  <li>Maintained the team's asset inventory (hostnames, patch status, AV dates) and wrote a short phishing-response cheat sheet now used in intern onboarding.</li>
+                </ul>
+              </div>
+              
+              <div className="p-6 rounded-2xl border border-white/10 bg-black/20 backdrop-blur-sm">
+                <div className="flex flex-wrap justify-between items-start mb-2">
+                  <h4 className="text-xl font-headline font-medium" style={{ color: '#F3F3F3' }}>
                     Software Tester & Coordinator (Co-op)
                   </h4>
                   <span className="text-sm font-ui px-3 py-1 rounded-full" style={{ backgroundColor: '#a374ff30', color: '#a374ff' }}>
-                    May 2024 – September 2024
+                    May 2024 – August 2024
                   </span>
                 </div>
                 <h5 className="text-lg font-ui mb-3" style={{ color: '#16f0d1' }}>MVerse Technology Solutions</h5>
@@ -144,10 +178,15 @@ const Resume = () => {
                 <ul className="list-disc pl-5 space-y-2 font-ui" style={{ color: '#fffce4' }}>
                   <li>Penetration Testing</li>
                   <li>Vulnerability Assessment</li>
-                  <li>SIEM Implementation</li>
+                  <li>SIEM Implementation (Splunk)</li>
                   <li>Incident Response</li>
                   <li>Network Security</li>
                   <li>Security Auditing</li>
+                  <li>Network Traffic Analysis</li>
+                  <li>Port Scanning (Nmap)</li>
+                  <li>Phishing Analysis</li>
+                  <li>OWASP ZAP Testing</li>
+                  <li>AWS CloudTrail Integration</li>
                 </ul>
               </div>
               
