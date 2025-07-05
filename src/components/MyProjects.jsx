@@ -43,7 +43,7 @@ const MyProjects = () => {
       githubUrl: 'https://github.com/Mursaleen7/Plant-Disease-Detection-Website'
     },
     {
-      name: 'GlobalAidConnect Crisis Prediction',
+      name: 'GlobalAidConnect Crisis App',
       year: '2023',
       category: 'Predictive Analytics & API Security',
       techStack: 'Swift, Gemini API, Real-time Data, MapKit, Security APIs',
