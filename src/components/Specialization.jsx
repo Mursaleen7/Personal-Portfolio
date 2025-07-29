@@ -123,32 +123,17 @@ const Specialization = () => {
       icon: SiComptia
     },
     {
-      title: "Job Simulations",
-      fullName: "Cybersecurity Job Simulations",
-      issuer: "Multiple Organizations",
+      title: "ISO/IEC 27001:2022 Lead Auditor",
+      fullName: "ISO/IEC 27001:2022 Lead Auditor",
+      issuer: "Mastermind",
       status: "Completed",
-      issued: "Apr 2025",
-      description: "Practical cybersecurity experience through real-world job simulations from leading financial institutions.",
-      skills: ["Penetration Testing", "Data Analysis", "Splunk", "Risk Assessment", "Incident Response"],
+      issued: "May 2025",
+      expires: "May 2028",
+      credentialId: "xx8v5gutxl",
+      description: "Mastery of auditing information security management systems (ISMS) against the ISO/IEC 27001:2022 standard.",
+      skills: ["Governance, Risk Management, and Compliance (GRC)", "Information Security", "ISO/IEC 17021", "ISO 27001 Lead Auditor", "ISO/IEC 27006"],
       color: "#6366f1",
-      icon: BsBriefcase,
-      simulations: [
-        {
-          name: "Commonwealth Bank - Introduction to Cybersecurity",
-          issuer: "Forage",
-          credentialId: "Pxvt68FwN2yN7wFPd"
-        },
-        {
-          name: "Mastercard - Cybersecurity Job Simulation", 
-          issuer: "Forage",
-          credentialId: "HyMoNDxwEWN9RzeEW"
-        },
-        {
-          name: "Shields Up (AIG) - Cybersecurity Job Simulation",
-          issuer: "Forage",
-          credentialId: "Not specified"
-        }
-      ]
+      icon: BsBriefcase
     }
   ]
 
