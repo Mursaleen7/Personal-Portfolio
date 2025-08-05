@@ -5,6 +5,7 @@
 @layer base {
   html {
     scroll-behavior: auto; /* Reset to default for keyboard navigation */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
   }
   
   body {
@@ -12,6 +13,10 @@
     background-color: #0e100f;
     color: #fffce4;
     overflow-x: hidden;
+  }
+
+  #root {
+    overflow-x: hidden; /* Ensure root container doesn't overflow */
   }
 
   /* Custom Scrolling Behavior */
