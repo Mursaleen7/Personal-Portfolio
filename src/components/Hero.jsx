@@ -57,7 +57,7 @@ const Hero = () => {
           </motion.div>
 
           {/* Main Headline Block - Centered below avatar with specific line alignments */}
-          <motion.div variants={itemVariants} className="relative -ml-8">
+          <motion.div variants={itemVariants} className="relative lg:-ml-8">
             <div className="font-headline font-medium text-4xl md:text-6xl lg:text-8xl leading-none tracking-tight uppercase">
               
               {/* Line 1: CYBER - Center aligned */}
@@ -126,7 +126,7 @@ const Hero = () => {
           </motion.div>
 
           {/* Interactive Cursors - Layered on top with precise positioning */}
-          <motion.div className="absolute inset-0 pointer-events-none overflow-visible">
+          <motion.div className="absolute inset-0 pointer-events-none overflow-visible hidden lg:block">
             {/* Security Cursor - Tip over center of Hello pill */}
             <motion.div 
               className="absolute cursor-pointer"
