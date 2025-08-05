@@ -46,9 +46,9 @@ const Hero = () => {
             </div>
 
             {/* Hello Pill - Top-right of avatar, bottom edge aligned with avatar midline */}
-            <motion.div 
-              variants={itemVariants} 
-              className="absolute top-5 left-full ml-2"
+            <motion.div
+              variants={itemVariants}
+              className="absolute left-1/2 top-full mt-2 transform -translate-x-1/2 md:top-5 md:left-full md:ml-2 md:mt-0 md:translate-x-0"
             >
               <div className="rounded-full px-6 py-1.5" style={{ border: '1px solid #323228' }}>
                 <span className="text-base md:text-lg font-headline font-medium whitespace-nowrap" style={{ color: '#fffce4' }}>Hello, I'm Mursaleen</span>
