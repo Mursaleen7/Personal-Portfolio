@@ -86,23 +86,7 @@ This will create a `dist` folder with optimized production files.
 - **Smooth Scrolling**: CSS and JavaScript optimizations
 - **Animation Performance**: Hardware acceleration for smooth animations
 
-## 🔧 Customization
 
-### Colors
-Update colors in `tailwind.config.js`:
-```javascript
-colors: {
-  primary: {
-    bg: '#111111',
-    text: '#FFFFFF'
-  },
-  accent: {
-            purple: '#a374ff',
-        yellow: '#ffd074',
-        teal: '#16f0d1',
-        green: '#10B981'
-  }
-}
 ```
 
 *Creating digital experiences that border on efficiency, aesthetics and functionality.* 
