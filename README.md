@@ -105,22 +105,4 @@ colors: {
 }
 ```
 
-### Content
-- Update personal information in components
-- Modify project data in `MyProjects.jsx`
-- Customize social links in `SocialBar.jsx`
-
-## 📄 License
-
-MIT License - feel free to use this code for your own portfolio!
-
-## 👨‍💻 Author
-
-**thegr8binil**
-- Email: thegr8binil@gmail.com
-- Location: Kerala, India
-- Specialties: UI/UX Design, Full-Stack Development
-
----
-
 *Creating digital experiences that border on efficiency, aesthetics and functionality.* 
