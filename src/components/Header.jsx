@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Home, Briefcase, FileText, X } from 'lucide-react'
+import { X } from 'lucide-react'
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -74,7 +74,7 @@ const Header = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="hidden md:flex items-center space-x-8"
         >
-          <a onClick={(e) => { e.preventDefault(); scrollToSection('home'); }} className="nav-link text-base cursor-pointer">Home</a>
+          <a onClick={(e) => { e.preventDefault(); scrollToSection('hero'); }} className="nav-link text-base cursor-pointer">Home</a>
           <a onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }} className="nav-link text-base cursor-pointer">Projects</a>
           <a onClick={(e) => { e.preventDefault(); scrollToSection('certifications'); }} className="nav-link text-base cursor-pointer">Certifications</a>
           <a onClick={(e) => { e.preventDefault(); scrollToSection('resume'); }} className="nav-link text-base cursor-pointer">Resume</a>
@@ -126,7 +126,7 @@ const Header = () => {
               <a 
                 onClick={(e) => { 
                   e.preventDefault(); 
-                  scrollToSection('home');
+                  scrollToSection('hero');
                 }}
                 className="text-xl font-headline font-medium py-2 px-4 rounded-lg hover:bg-white/5 cursor-pointer"
               >
