@@ -66,7 +66,7 @@ function App() {
   }, [])
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#0e100f' }}>
+    <div className="min-h-screen overflow-x-hidden" style={{ backgroundColor: '#0e100f' }}>
       <AnimatePresence mode="wait">
         {isLoading && (
           <>
